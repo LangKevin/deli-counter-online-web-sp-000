@@ -4,7 +4,10 @@ def line(array)
     puts("The line is currently empty.")
   else
     str = "The line is currently: "
+    cnt = 1
     array.each do |item|
+      str = str + "#{cnt}." + item + " "
+
     end
   end
 end
