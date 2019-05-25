@@ -18,4 +18,6 @@ end
 
 def take_a_number(array, name)
   array.push(name)
+  idx = array.index(name)
+  puts("Welcome, #{name}. You are number #{idx} in line.")
 end
