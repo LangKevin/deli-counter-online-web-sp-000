@@ -7,7 +7,7 @@ def line(array)
     cnt = 1
     array.each do |item|
       str = str + "#{cnt}." + item + " "
-
     end
+    puts(str)
   end
 end
