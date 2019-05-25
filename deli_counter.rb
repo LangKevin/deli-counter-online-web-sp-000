@@ -8,7 +8,7 @@ def line(array)
     array.each do |item|
       str = str + "#{cnt}. " + item
       cnt += 1
-      if cnt < array.size
+      if cnt <= array.size
         str = str + " "
       end
     end
