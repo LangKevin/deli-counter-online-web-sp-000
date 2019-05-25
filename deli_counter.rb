@@ -6,8 +6,11 @@ def line(array)
     str = "The line is currently: "
     cnt = 1
     array.each do |item|
-      str = str + "#{cnt}. " + item + " "
+      str = str + "#{cnt}. " + item 
       cnt += 1
+      if cnt < array.size
+        str = str + " "
+      end   
     end
     puts(str)
   end
