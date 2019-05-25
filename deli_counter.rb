@@ -24,4 +24,4 @@ end
 
 def now_serving(array)
   
-end  
+end
