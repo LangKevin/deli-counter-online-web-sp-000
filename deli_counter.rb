@@ -21,3 +21,6 @@ def take_a_number(array, name)
   idx = array.index(name) + 1
   puts("Welcome, #{name}. You are number #{idx} in line.")
 end
+
+def now_serving
+end  
